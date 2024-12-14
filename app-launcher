@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+dir="$HOME/.config/rofi/themes"
+theme='appmenu'
+
+## Run
+rofi \
+    -show drun \
+    -terminal alacritty \
+    -theme ${dir}/${theme}.rasi
